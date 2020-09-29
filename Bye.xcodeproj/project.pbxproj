@@ -3,23 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1030CBE525234973005482BF /* Bye.m in Sources */ = {isa = PBXBuildFile; fileRef = 1030CBE425234973005482BF /* Bye.m */; };
-		1030CBE625234973005482BF /* Bye.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1030CBE325234973005482BF /* Bye.h */; };
+		1030CBE625234973005482BF /* Bye.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1030CBE325234973005482BF /* Bye.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1030CBDE25234973005482BF /* CopyFiles */ = {
+		1030CBDE25234973005482BF /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				1030CBE625234973005482BF /* Bye.h in CopyFiles */,
+				1030CBE625234973005482BF /* Bye.h in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -75,7 +76,7 @@
 			buildPhases = (
 				1030CBDC25234973005482BF /* Sources */,
 				1030CBDD25234973005482BF /* Frameworks */,
-				1030CBDE25234973005482BF /* CopyFiles */,
+				1030CBDE25234973005482BF /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -100,7 +101,7 @@
 				};
 			};
 			buildConfigurationList = 1030CBDB25234973005482BF /* Build configuration list for PBXProject "Bye" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (

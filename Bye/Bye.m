@@ -9,4 +9,8 @@
 
 @implementation Bye
 
+- (void)bye {
+    NSLog(@"Bye");
+}
+
 @end

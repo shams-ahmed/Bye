@@ -9,4 +9,6 @@
 
 @interface Bye : NSObject
 
+- (void)bye;
+
 @end
